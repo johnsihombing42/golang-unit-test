@@ -44,8 +44,9 @@ func TestSubTest(t *testing.T){
 		result:=HelloWorld("John")
 		require.Equal(t,"Hello John",result,"Result must be Hello John")
 	})
-	t.Run("Eko",func(t *testing.T) {
-		result:=HelloWorld("Eko")
-		require.Equal(t,"Hello Eko",result,"Result must be Hello Eko")
+	t.Run("Putra",func(t *testing.T) {
+		result:=HelloWorld("Putra")
+		require.Equal(t,"Hello Putra",result,"Result must be Hello Putra")
 	})
 }
+
